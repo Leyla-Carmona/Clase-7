@@ -1,0 +1,40 @@
+nav{
+    top:0; 
+    width: 100%; 
+    height: 60px; 
+    position: fixed; 
+    background-color: rgba(161, 190, 161, 0.425);
+}
+
+.inputs{
+    margin: 15px; 
+    height: 30px;
+    width: 80%;
+}
+
+#inputbuttom{
+margin: 15px; 
+height: 30px; 
+background-color: rgba(102, 78, 17, 0.325); 
+cursor: pointer; width: 80%;
+}
+
+#modelo{
+    img{
+        width:300px;
+        height:auto;
+        padding: 20px;
+        margin: 20px;
+        border: 5px solid black;
+        background-color: lightblue;
+}
+}
+
+/*
+Etiquetas { nav, h1, body } - prioridad baja
+Clases { .titulos, .elementos } - prioridad media
+id { #title, #learning} - prioridad alta
+
+estilos en linea { <h1 style="color: red"> } - prioridad muy alta
+
+!important { color: red !important; } - prioridad máxima
